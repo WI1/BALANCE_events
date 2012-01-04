@@ -11,30 +11,6 @@ function events_ctools_plugin_api() {
 }
 
 /**
- * Implementation of hook_imagecache_default_presets().
- */
-function events_imagecache_default_presets() {
-  $items = array(
-    'pic_2c_square' => array(
-      'presetname' => 'pic_2c_square',
-      'actions' => array(
-        '0' => array(
-          'weight' => '0',
-          'module' => 'imagecache',
-          'action' => 'imagecache_scale',
-          'data' => array(
-            'width' => '230',
-            'height' => '124',
-            'upscale' => 0,
-          ),
-        ),
-      ),
-    ),
-  );
-  return $items;
-}
-
-/**
  * Implementation of hook_node_info().
  */
 function events_node_info() {
