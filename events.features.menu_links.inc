@@ -6,10 +6,10 @@
 function events_menu_default_menu_links() {
   $menu_links = array();
 
-  // Exported menu link: primary-links:node/988
-  $menu_links['primary-links:node/988'] = array(
+  // Exported menu link: primary-links:node/4847
+  $menu_links['primary-links:node/4847'] = array(
     'menu_name' => 'primary-links',
-    'link_path' => 'node/988',
+    'link_path' => 'node/4847',
     'router_path' => 'node/%',
     'link_title' => 'Termine',
     'options' => array(
@@ -22,7 +22,7 @@ function events_menu_default_menu_links() {
     'external' => '0',
     'has_children' => '1',
     'expanded' => '0',
-    'weight' => '-49',
+    'weight' => '-48',
   );
   // Translatables
   // Included for use with string extractors like potx.
